@@ -1,0 +1,11 @@
+<h1>
+  {{title}}
+
+  <ul>
+    <li *ngFor="let item of items | async">
+        {{item.$key}} : {{item.$value}}
+    </li>
+  </ul>
+
+
+</h1>
